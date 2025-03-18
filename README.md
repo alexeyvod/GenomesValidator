@@ -61,10 +61,10 @@
 
 Для запуска в консольном режиме на компьютере должен быть установлен Java Runtime Environment (JRE). Запуск осуществляется командой:
 
-'java -jar GenomesValidator.jar  <genome.fasta>'
+`java -jar GenomesValidator.jar  <genome.fasta>`
 или 
 
-'java -jar GenomesValidator.jar  <genome.fasta> <result file name>'
+`java -jar GenomesValidator.jar  <genome.fasta> <result file name>`
 
 где:
 * **genome.fasta** -– анализируемый геном в формате fasta,
@@ -72,7 +72,7 @@
 
 Результат выводится в json-файл
 
-'''
+```
 {
     "File": "V-ch-18336.fasta",
     "Species": "V. cholerae",
@@ -82,7 +82,7 @@
     "Quality": "average",
     "Reason": "pyrC: 15/342 AK"
 }
-'''
+```
 
 
 
