@@ -18,6 +18,7 @@
 * Yersinia enterocolitica
 * Y. pestis
 * Y. pseudotuberculosis
+* Vibrio vulnificus
 
 ## Запуск
 
